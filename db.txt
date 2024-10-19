@@ -1,0 +1,56 @@
+create table if not exists user(username varchar(50) primary key,name varchar(50),mailid varchar(100) NOT NULL, password varchar(100) NOT NULL,count int,UNIQUE(mailid));
+create table if not exists undefined(questions varchar(300) unique, count int);
+CREATE TABLE IF NOT EXISTS faq (questions VARCHAR(300) NOT NULL,answers VARCHAR(300) NOT NULL,count INT DEFAULT 0,FULLTEXT (questions));    
+CREATE TABLE IF NOT EXISTS tickets (conversation TEXT NOT NULL,username VARCHAR(255),FOREIGN KEY (username) REFERENCES user(username));
+
+INSERT INTO faq (questions, answers) VALUES
+('What is your return policy?', 'You can return most items within 30 days of receiving your order. Please refer to our returns page for more details.'),
+('How do I contact customer support?', 'You can reach customer support by emailing us at support@example.com or calling our hotline available on the contact page.'),
+('What shipping options do you offer?', 'We offer standard, express, and next-day shipping options depending on your location.'),
+('How do I track my order?', 'After placing an order, you will receive an email with tracking information. You can use the tracking number on our website to monitor the shipment.'),
+('Can I change or cancel my order?', 'You can change or cancel your order within 24 hours of placement by contacting customer support.'),
+('Do you offer international shipping?', 'Yes, we offer international shipping to select countries. Additional charges may apply depending on the destination.'),
+('What payment methods do you accept?', 'We accept payments via credit card, PayPal, and bank transfers.'),
+('How do I reset my account password?', 'To reset your password, click on the Forgot Password link on the login page and follow the instructions.'),
+('How do I update my account information?', 'You can update your account information by logging into your profile and editing the necessary details.'),
+('What should I do if I receive a defective product?', 'If you receive a defective product, please contact customer support immediately to arrange for a replacement or refund.'),
+('Do you offer gift cards?', 'Yes, we offer digital gift cards in various denominations. You can purchase them on our website.'),
+('Can I return a sale item?', 'Sale items are eligible for return unless stated otherwise in the product description.'),
+('How long does it take to process a refund?', 'Refunds are typically processed within 5-7 business days after receiving the returned item.'),
+('How do I create an account?', 'To create an account, click on the Sign Up button on the home page and fill in the required details.'),
+('How can I subscribe to your newsletter?', 'You can subscribe to our newsletter by entering your email address in the subscription box at the bottom of our website.'),
+('Can I change my shipping address after placing an order?', 'You can change your shipping address within 24 hours of placing an order by contacting customer support.'),
+('How do I use a discount code?', 'To use a discount code, enter it at checkout in the promo code field. The discount will be applied to your total order amount.'),
+('How can I leave a review on a product?', 'To leave a review, go to the product page and click on the Leave a Review button. You need to be logged in to leave a review.'),
+('What is your privacy policy?', 'We are committed to protecting your privacy. You can read our full privacy policy on our website under the Privacy Policy section.'),
+('How can I close my account?', 'If you wish to close your account, please contact customer support for assistance.'),
+('What happens if my package is lost during shipping?', 'If your package is lost during shipping, please contact customer support. We will work with the courier to resolve the issue.'),
+('Do you offer free returns?', 'Yes, we offer free returns on most products. Please check the return policy for specific items.'),
+('How long will it take to receive my order?', 'Delivery times vary based on your location and selected shipping method. Standard shipping usually takes 5-7 business days.')
+;
+
+INSERT INTO faq (questions, answers) VALUES
+('How do I unsubscribe from your newsletter?', 'You can unsubscribe from our newsletter by clicking the unsubscribe link at the bottom of any of our emails.'),
+('What should I do if I forget my username?', 'If you forget your username, you can recover it by clicking on the Forgot Username link on the login page and following the instructions.'),
+('How do I apply for a job at your company?', 'To apply for a job, visit our Careers page and submit your application through the available job listings.'),
+('Do you have a mobile app?', 'Yes, we have a mobile app available for download on both iOS and Android platforms.'),
+('Can I save items in my cart for later?', 'Yes, items added to your cart will remain there for later purchase as long as you are logged into your account.'),
+('Do you offer customer loyalty rewards?', 'Yes, we offer a loyalty program that allows you to earn points for every purchase. Points can be redeemed for discounts.'),
+('What should I do if my payment fails?', 'If your payment fails, please try using a different payment method or contact your bank. You can also reach out to our support team for help.'),
+('How can I find my order history?', 'You can view your order history by logging into your account and navigating to the Orders section.'),
+('Can I combine multiple discount codes?', 'Typically, only one discount code can be applied per order. Please refer to the terms of the promotion for more details.'),
+('What do I do if I have trouble logging in?', 'If you have trouble logging in, try resetting your password or contact customer support for assistance.')
+;
+
+INSERT INTO faq (questions, answers) VALUES
+('Why do I always lose one sock in the laundry?', 'It’s one of life’s greatest mysteries. We suspect it’s a sock rebellion, but no one really knows.'),
+('Can I have pizza delivered by drone?', 'Not yet, but we’re working on it! For now, a human will have to deliver your pizza.'),
+('Why does my cat stare at me like it’s planning something?', 'Your cat is likely plotting world domination, but don’t worry, they’re easily distracted by laser pointers.'),
+('If I eat dessert first, is it still dessert?', 'No, it becomes an appetizer, and we fully support your life choices.'),
+('Can I return bad jokes I bought here?', 'We’re sorry, all bad jokes are final sale. You’re stuck with them, just like everyone else.'),
+('Why do I always forget my password?', 'Your brain is trying to protect you from the internet. It’s doing you a favor!'),
+('Is cereal a soup?', 'It depends. Is water wet? This debate might take a while to settle.'),
+('Can I get a refund for 2020?', 'Unfortunately, all sales on years are final. We suggest upgrading to 2021 or beyond.'),
+('Why do phones autocorrect to the wrong word?', 'Autocorrect is just trying to make you more interesting, one awkward text at a time.'),
+('Do I really need sleep, or is it just a suggestion?', 'Sleep is technically recommended, but late-night binge-watching says otherwise.')
+;
