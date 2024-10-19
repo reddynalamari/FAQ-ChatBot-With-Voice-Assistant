@@ -1,3 +1,4 @@
+create database faq_chatbot;
 create table if not exists user(username varchar(50) primary key,name varchar(50),mailid varchar(100) NOT NULL, password varchar(100) NOT NULL,count int,UNIQUE(mailid));
 create table if not exists undefined(questions varchar(300) unique, count int);
 CREATE TABLE IF NOT EXISTS faq (questions VARCHAR(300) NOT NULL,answers VARCHAR(300) NOT NULL,count INT DEFAULT 0,FULLTEXT (questions));    
