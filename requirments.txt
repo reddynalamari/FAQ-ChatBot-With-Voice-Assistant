@@ -1,6 +1,5 @@
 pip install customtkinter
 pip install SpeechRecognition
-pip install smtplib
-pip install ssl
 pip install mysql-connector-python
+pip install pypiwin32
 pip install pyttsx3
