@@ -3,8 +3,8 @@ import ssl
 from email.message import EmailMessage
 
 def mail_sender(name="user",email_receiver="",otp="",operation=""):
-    email_sender = 'myapplogin75@gmail.com'
-    email_password = 'ztiptcinocbtzjzn'
+    email_sender = 'yourmailid@gmail.com'
+    email_password = 'your password'
     subject = 'OTP'
     if operation == 'new':
         body = f"""
@@ -36,7 +36,7 @@ def mail_sender(name="user",email_receiver="",otp="",operation=""):
         
         
         """
-        email_receiver = "shashidharreddynalamariedu@gmail.com" # admin mail id
+        email_receiver = "" # admin mail id
     em = EmailMessage()
     em['From'] = email_sender
     em['To'] = email_receiver
