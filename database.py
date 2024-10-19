@@ -4,7 +4,7 @@ import mysql.connector as connector
 class DBHelper():
     def __init__(self):
         self.con = connector.connect(
-            host='localhost', port='3306', user='root', password='0809', database='faq_chatbot',
+            host='localhost', port='3306', user='root', password='your password', database='faq_chatbot',
             auth_plugin='mysql_native_password')
         query = 'create table if not exists user(username varchar(50) primary key,name varchar(50),\
               mailid varchar(100) NOT NULL, \
