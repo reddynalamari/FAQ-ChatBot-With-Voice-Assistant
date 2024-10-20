@@ -35,7 +35,7 @@ The primary goal of this project is to create an FAQ chatbot that can autonomous
      - `mysql-connector-python`
      - Other required libraries
 
-3. Set up your MySQL database
+3. Set up your MySQL database and read [Setup](setup.txt) file carefully
 
 4. Run the application:
    ```bash
