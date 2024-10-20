@@ -22,7 +22,7 @@ The primary goal of this project is to create an FAQ chatbot that can autonomous
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/reddynalamari/FAQ-ChatBot-With-Voice-Assistant
+   git clone https://github.com/reddynalamari/FAQ-ChatBot-With-Voice-Assistant.git
    ```
 2. Install required dependencies:
    ```bash
