@@ -58,27 +58,27 @@ The primary goal of this project is to create an FAQ chatbot that can autonomous
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Screens
-Main Frame
-![Chatbot Interface](./images/Picture1.png)
-Admin Screen
-![Chatbot Interface](./images/Picture2.png)
-All users
-![Chatbot Interface](./images/Picture3.png)
-Tickets Raised by the users
-![Chatbot Interface](./images/Picture4.png)
-Adding new FAQ
-![Chatbot Interface](./images/Picture5.png)
-All FAQs
-![Chatbot Interface](./images/Picture6.png)
-Adding new FAQ which is asked by the user
-![Chatbot Interface](./images/Picture7.png)
-Signup screen for the user
-![Chatbot Interface](./images/Picture8.png)
-OTP page
-![Chatbot Interface](./images/Picture9.png)
-User Screen
-![Chatbot Interface](./images/Picture10.png)
-Interacting with ChatBot
-![Chatbot Interface](./images/Picture11.png)
-Asking Unknown Question
-![Chatbot Interface](./images/Picture12.png)
+Main Frame<br>
+![Chatbot Interface](./images/Picture1.png)<br>
+Admin Screen<br>
+![Chatbot Interface](./images/Picture2.png)<br>
+All users<br>
+![Chatbot Interface](./images/Picture3.png)<br>
+Tickets Raised by the users<br>
+![Chatbot Interface](./images/Picture4.png)<br>
+Adding new FAQ<br>
+![Chatbot Interface](./images/Picture5.png)<br>
+All FAQs<br>
+![Chatbot Interface](./images/Picture6.png)<br>
+Adding new FAQ which is asked by the user<br>
+![Chatbot Interface](./images/Picture7.png)<br>
+Signup screen for the user<br>
+![Chatbot Interface](./images/Picture8.png)<br>
+OTP page<br>
+![Chatbot Interface](./images/Picture9.png)<br>
+User Screen<br>
+![Chatbot Interface](./images/Picture10.png)<br>
+Interacting with ChatBot<br>
+![Chatbot Interface](./images/Picture11.png)<br>
+Asking Unknown Question<br>
+![Chatbot Interface](./images/Picture12.png)<br>
